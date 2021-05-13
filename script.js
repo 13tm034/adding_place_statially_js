@@ -1,6 +1,8 @@
-longitude: 139.54879508947934, latitude: 35.723777284047515 ces = staticLoadPlaces();
+window.onload = () => {
+     let places = staticLoadPlaces();
      renderPlaces(places);
 };
+
 
 function staticLoadPlaces() {
       return [
